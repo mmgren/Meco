@@ -1,0 +1,7 @@
+1、查看java_home 安装路径
+/usr/libexec/java_home -V
+
+-- /Library/Java/JavaVirtualMachines/jdk-11.jdk
+
+2、删除jdk文件
+sudo rm -rf jdk-11.jdk
