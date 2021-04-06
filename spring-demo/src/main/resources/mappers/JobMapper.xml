@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.meco.spinrgdemo.dao">
+    <resultMap id="BaseResultMap" type="com.meco.spinrgdemo.pojo.Job">
+        <result column="category" property="category" />
+        <result column="zkdw" property="zkdw" />
+        <result column="dwdm" property="dwdm" />
+        <result column="zkzw" property="zkzw" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, category, zkdw, dwdm, zkzw
+    </sql>
+
+    <select id="getJobs" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select
+        <include refid="Base_Column_List" />
+        from gdjob
+        limit #{pageCount}
+    </select>
+
+</mapper>
