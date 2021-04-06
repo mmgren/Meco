@@ -1,0 +1,33 @@
+1、mv (move)
+移动或重命名文件
+-f 强制覆盖不提醒
+-i 覆盖目标文件前提醒
+-n 不覆盖目标文件
+
+eg1: 将n个文件移动到某个目录下
+mv file1 file2 file3 dir
+
+eg2: 重命名/移动文件
+mv file1 file2  
+若file2不存在则重命名，反之则覆盖；
+
+eg3: 移动目录
+mv dir1 dir2
+若dir2不存在则重命名，反之则覆盖；
+
+
+
+2、rm（remove）
+删除文件和目录
+-f 强制删除，没有提示
+-i 删除某个文件前请求确认
+-P 粉碎性删除
+-R 递归删除。常用于删除目录
+
+3、rmdir(remove directory)
+删除一个空白的文件夹
+
+
+4、mkdir(make directory)
+-p 创建中间目录，如 mkdir /path/with/many/layer 会把layer之前的所有层级都会创造出来
+-m 指定文件夹的权限，详见chmod
