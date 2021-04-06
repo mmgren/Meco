@@ -1,0 +1,6 @@
+com/meco/springboot/SpringbootMybatisApp.class
+com/meco/springboot/service/impl/JobServiceImpl.class
+com/meco/springboot/model/Job.class
+com/meco/springboot/dao/JobMapper.class
+com/meco/springboot/service/IJobService.class
+com/meco/springboot/controller/JobController.class

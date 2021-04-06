@@ -1,0 +1,6 @@
+/Users/zhangxinnian/Documents/Coding/github/Meco/springboot-mybatis/src/main/java/com/meco/springboot/model/Job.java
+/Users/zhangxinnian/Documents/Coding/github/Meco/springboot-mybatis/src/main/java/com/meco/springboot/controller/JobController.java
+/Users/zhangxinnian/Documents/Coding/github/Meco/springboot-mybatis/src/main/java/com/meco/springboot/SpringbootMybatisApp.java
+/Users/zhangxinnian/Documents/Coding/github/Meco/springboot-mybatis/src/main/java/com/meco/springboot/service/impl/JobServiceImpl.java
+/Users/zhangxinnian/Documents/Coding/github/Meco/springboot-mybatis/src/main/java/com/meco/springboot/dao/JobMapper.java
+/Users/zhangxinnian/Documents/Coding/github/Meco/springboot-mybatis/src/main/java/com/meco/springboot/service/IJobService.java
